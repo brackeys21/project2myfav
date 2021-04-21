@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(238, 72, 175, 0.73) 24.9%,
+    rgba(67, 209, 241, 0.9) 54.9%,
+    rgba(237, 65, 129, 0.99) 100.2%
+  );
+  margin: 0;
+  padding: 800 px;
+  text-decoration-color: black;
+  font-family: cursive;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+#bio {
+  padding: 50px;
+  text-align: center;
+  font-size: 18;
+}
+
+img {
+  text-align: center;
+  width: 300px;
+  height: 250px;
+}
+.menue {
+  list-style: none;
+  font-family: sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  transition: transform 0.2s;
+}
+
+img:hover {
+  transform: scale(0.9);
+}
